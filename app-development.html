@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Development | viSYbility</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+<script>const savedTheme = localStorage.getItem('theme'); const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches; if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) { document.documentElement.setAttribute('data-theme', 'dark'); } else { document.documentElement.setAttribute('data-theme', 'light'); }</script></head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <a href="/index.html" class="logo">vi<span style="color: var(--golden-hint);">SY</span>bility<span style="color: var(--golden-hint);">.</span></a>
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li class="dropdown">
+          <a href="/services.html">Services <i class="fas fa-chevron-down" style="font-size: 0.7em; margin-left: 4px;"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="/services.html">All Services</a></li>
+            <li class="nested-dropdown"><a href="/web-development.html">Web Development <i class="fas fa-chevron-right" style="font-size: 0.7em; float: right; margin-top: 4px;"></i></a><ul class="nested-dropdown-menu"><li><a href="/web-development.html">Website Planning &amp; Strategy</a></li><li><a href="/web-development.html">UI/UX Design</a></li><li><a href="/web-development.html">Custom Website Dev</a></li><li><a href="/web-development.html">Landing Page Dev</a></li><li><a href="/web-development.html">E-commerce Dev</a></li><li><a href="/web-development.html">CMS Development</a></li><li><a href="/web-development.html">Redesign &amp; Optimization</a></li><li><a href="/web-development.html">Performance Optimization</a></li><li><a href="/web-development.html">API Integration</a></li><li><a href="/web-development.html">Hosting &amp; Deployment</a></li><li><a href="/web-development.html">Maintenance &amp; Updates</a></li></ul></li>
+            <li class="nested-dropdown"><a href="/app-development.html">App Development <i class="fas fa-chevron-right" style="font-size: 0.7em; float: right; margin-top: 4px;"></i></a><ul class="nested-dropdown-menu"><li><a href="/app-development.html">App Idea Validation</a></li><li><a href="/app-development.html">UI/UX Design for Apps</a></li><li><a href="/app-development.html">Android App Dev</a></li><li><a href="/app-development.html">iOS App Dev</a></li><li><a href="/app-development.html">Cross-platform Dev</a></li><li><a href="/app-development.html">Backend Development</a></li><li><a href="/app-development.html">MVP Development</a></li><li><a href="/app-development.html">Testing &amp; Debugging</a></li><li><a href="/app-development.html">App Deployment</a></li><li><a href="/app-development.html">Maintenance &amp; Updates</a></li></ul></li>
+            <li class="nested-dropdown"><a href="/digital-marketing.html">Digital Marketing <i class="fas fa-chevron-right" style="font-size: 0.7em; float: right; margin-top: 4px;"></i></a><ul class="nested-dropdown-menu"><li><a href="/digital-marketing.html">Social Media Marketing</a></li><li><a href="/digital-marketing.html">Performance Marketing</a></li><li><a href="/digital-marketing.html">SEO</a></li><li><a href="/digital-marketing.html">Content Marketing</a></li><li><a href="/digital-marketing.html">Branding &amp; Positioning</a></li><li><a href="/digital-marketing.html">Email Marketing</a></li><li><a href="/digital-marketing.html">Funnel Building</a></li><li><a href="/digital-marketing.html">Analytics &amp; Tracking</a></li><li><a href="/digital-marketing.html">Strategy &amp; Consulting</a></li></ul></li>
+          </ul>
+        </li>
+        <li><a href="/portfolio.html">Portfolio</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contact.html">Contact</a></li><li><button class="theme-toggle btn-outline" style="padding: 8px 12px; border-radius: 50%; border: 1px solid var(--border-color); background: transparent; cursor: pointer; color: var(--text-main); display: flex; align-items: center; justify-content: center; width: 40px; height: 40px;" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header fade-in">
+    <div class="container">
+      <h1>App Development</h1>
+      <p style="max-width: 600px; margin: 0 auto;">Intuitive, powerful, and engaging mobile applications for iOS and Android.</p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="fade-in">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <h2>Our Approach</h2>
+          <p>We design and develop mobile applications that put the user first. By combining minimalist design principles with robust engineering, we create apps that people love to use.</p>
+          
+          <h3 style="margin-top: 3rem;">Process</h3>
+          <ul style="margin-top: 1rem;">
+            <li style="margin-bottom: 1rem;"><strong>1. Strategy:</strong> Defining the app's core value proposition and target audience.</li>
+            <li style="margin-bottom: 1rem;"><strong>2. UI/UX Design:</strong> Creating wireframes and high-fidelity prototypes.</li>
+            <li style="margin-bottom: 1rem;"><strong>3. Development:</strong> Building the app using native or cross-platform frameworks.</li>
+            <li style="margin-bottom: 1rem;"><strong>4. Launch:</strong> App store optimization and deployment.</li>
+          </ul>
+        </div>
+        <div style="background: var(--accent-color); padding: 3rem; border-radius: 8px;">
+          <h3>Features</h3>
+          <ul style="margin-top: 1.5rem;">
+            <li style="margin-bottom: 1rem;"><i class="fas fa-check" style="margin-right: 10px;"></i> iOS & Android Support</li>
+            <li style="margin-bottom: 1rem;"><i class="fas fa-check" style="margin-right: 10px;"></i> Cross-Platform Solutions</li>
+            <li style="margin-bottom: 1rem;"><i class="fas fa-check" style="margin-right: 10px;"></i> UI/UX Excellence</li>
+            <li style="margin-bottom: 1rem;"><i class="fas fa-check" style="margin-right: 10px;"></i> API Integration</li>
+            <li style="margin-bottom: 1rem;"><i class="fas fa-check" style="margin-right: 10px;"></i> Ongoing Maintenance</li>
+          </ul>
+          <a href="/contact.html" class="btn" style="margin-top: 2rem; width: 100%; text-align: center;">Book a Free Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sub-services Grid -->
+  <section style="background: var(--accent-color); padding: 80px 0;" class="fade-in">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 3rem;">Detailed Services</h2>
+      <div class="sub-services-grid">
+        <div class="sub-service-card">
+          <h4>App Idea Validation & Planning</h4>
+          <p>Validating concepts and mapping out the product strategy.</p>
+        </div>
+        <div class="sub-service-card">
+          <h4>UI/UX Design for Mobile Apps</h4>
+          <p>Crafting engaging and intuitive mobile interfaces.</p>
+        </div>
+        <div class="sub-service-card">
+          <h4>Android App Development</h4>
+          <p>Native applications built for the Android ecosystem.</p>
+        </div>
+        <div class="sub-service-card">
+          <h4>iOS App Development</h4>
+          <p>High-performance native apps for iPhones and iPads.</p>
+        </div>
+        <div class="sub-service-card">
+          <h4>Cross-platform App Development</h4>
+          <p>Efficient development using Flutter or React Native.</p>
+        </div>
+        <div class="sub-service-card">
+          <h4>Backend Development</h4>
+          <p>Robust APIs and databases to power your mobile app.</p>
+        </div>
+        <div class="sub-service-card">
+          <h4>MVP Development</h4>
+          <p>Rapid prototyping and development for startups.</p>
+        </div>
+        <div class="sub-service-card">
+          <h4>App Testing & Debugging</h4>
+          <p>Comprehensive QA to ensure a bug-free experience.</p>
+        </div>
+        <div class="sub-service-card">
+          <h4>App Deployment</h4>
+          <p>Seamless submission to the Play Store and App Store.</p>
+        </div>
+        <div class="sub-service-card">
+          <h4>App Maintenance & Updates</h4>
+          <p>Continuous monitoring, feature updates, and support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a href="/contact.html" class="sticky-cta">
+    <i class="fas fa-calendar-alt"></i> Book a Call
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="/index.html" class="logo" style="display: block; margin-bottom: 1rem;">vi<span style="color: var(--golden-hint);">SY</span>bility<span style="color: var(--golden-hint);">.</span></a>
+          <p style="font-size: 0.95rem;">Be Seen. Be Known. Be <span style="color: var(--golden-hint);">viSYble</span>.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/919835189757"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/web-development.html">Web Development</a></li>
+            <li><a href="/app-development.html">App Development</a></li>
+            <li><a href="/digital-marketing.html">Digital Marketing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:contact@visybility.com">contact@visybility.com</a></li>
+            <li><a href="tel:+919835189757">+91-9835189757</a></li>
+            <li><span style="color: var(--text-muted); font-size: 0.95rem;">123 Innovation Drive<br>Tech City, TC 10010</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 vi<span style="color: var(--golden-hint);">SY</span>bility<span style="color: var(--golden-hint);">.</span> All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

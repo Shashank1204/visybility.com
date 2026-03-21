@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | viSYbility</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+<script>const savedTheme = localStorage.getItem('theme'); const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches; if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) { document.documentElement.setAttribute('data-theme', 'dark'); } else { document.documentElement.setAttribute('data-theme', 'light'); }</script></head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <a href="/index.html" class="logo">vi<span style="color: var(--golden-hint);">SY</span>bility<span style="color: var(--golden-hint);">.</span></a>
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li class="dropdown">
+          <a href="/services.html">Services <i class="fas fa-chevron-down" style="font-size: 0.7em; margin-left: 4px;"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="/services.html">All Services</a></li>
+            <li class="nested-dropdown"><a href="/web-development.html">Web Development <i class="fas fa-chevron-right" style="font-size: 0.7em; float: right; margin-top: 4px;"></i></a><ul class="nested-dropdown-menu"><li><a href="/web-development.html">Website Planning &amp; Strategy</a></li><li><a href="/web-development.html">UI/UX Design</a></li><li><a href="/web-development.html">Custom Website Dev</a></li><li><a href="/web-development.html">Landing Page Dev</a></li><li><a href="/web-development.html">E-commerce Dev</a></li><li><a href="/web-development.html">CMS Development</a></li><li><a href="/web-development.html">Redesign &amp; Optimization</a></li><li><a href="/web-development.html">Performance Optimization</a></li><li><a href="/web-development.html">API Integration</a></li><li><a href="/web-development.html">Hosting &amp; Deployment</a></li><li><a href="/web-development.html">Maintenance &amp; Updates</a></li></ul></li>
+            <li class="nested-dropdown"><a href="/app-development.html">App Development <i class="fas fa-chevron-right" style="font-size: 0.7em; float: right; margin-top: 4px;"></i></a><ul class="nested-dropdown-menu"><li><a href="/app-development.html">App Idea Validation</a></li><li><a href="/app-development.html">UI/UX Design for Apps</a></li><li><a href="/app-development.html">Android App Dev</a></li><li><a href="/app-development.html">iOS App Dev</a></li><li><a href="/app-development.html">Cross-platform Dev</a></li><li><a href="/app-development.html">Backend Development</a></li><li><a href="/app-development.html">MVP Development</a></li><li><a href="/app-development.html">Testing &amp; Debugging</a></li><li><a href="/app-development.html">App Deployment</a></li><li><a href="/app-development.html">Maintenance &amp; Updates</a></li></ul></li>
+            <li class="nested-dropdown"><a href="/digital-marketing.html">Digital Marketing <i class="fas fa-chevron-right" style="font-size: 0.7em; float: right; margin-top: 4px;"></i></a><ul class="nested-dropdown-menu"><li><a href="/digital-marketing.html">Social Media Marketing</a></li><li><a href="/digital-marketing.html">Performance Marketing</a></li><li><a href="/digital-marketing.html">SEO</a></li><li><a href="/digital-marketing.html">Content Marketing</a></li><li><a href="/digital-marketing.html">Branding &amp; Positioning</a></li><li><a href="/digital-marketing.html">Email Marketing</a></li><li><a href="/digital-marketing.html">Funnel Building</a></li><li><a href="/digital-marketing.html">Analytics &amp; Tracking</a></li><li><a href="/digital-marketing.html">Strategy &amp; Consulting</a></li></ul></li>
+          </ul>
+        </li>
+        <li><a href="/portfolio.html">Portfolio</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contact.html">Contact</a></li><li><button class="theme-toggle btn-outline" style="padding: 8px 12px; border-radius: 50%; border: 1px solid var(--border-color); background: transparent; cursor: pointer; color: var(--text-main); display: flex; align-items: center; justify-content: center; width: 40px; height: 40px;" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header fade-in">
+    <div class="container">
+      <h1>About vi<span style="color: var(--golden-hint);">SY</span>bility</h1>
+      <p style="max-width: 600px; margin: 0 auto;">We are a team of designers, developers, and strategists dedicated to building clean, effective digital experiences.</p>
+    </div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section class="fade-in">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <h2>Our Mission</h2>
+          <p>To empower businesses by stripping away digital clutter and focusing on what truly matters. We build tools and experiences that are intuitive, fast, and purpose-driven.</p>
+        </div>
+        <div>
+          <h2>Our Vision</h2>
+          <p>To be the leading digital agency known for ultra-minimalist design and robust engineering, setting the standard for clarity in the digital world.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section style="background: var(--accent-color);" class="fade-in">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 3rem;">Leadership Team</h2>
+      <div style="max-width: 800px; margin: 0 auto; margin-bottom: 4rem;">
+        <div class="card" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; padding: 3rem;">
+          <img src="https://picsum.photos/seed/founder/300/300" alt="Shashank Yash" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; flex-shrink: 0; margin: 0 auto;">
+          <div style="flex: 1; min-width: 250px;">
+            <h3 style="margin-bottom: 0.5rem; font-size: 1.75rem;">Shashank Yash</h3>
+            <p style="font-size: 1.1rem; color: var(--golden-hint); margin-bottom: 1.5rem; font-weight: 500;">Founder & CEO</p>
+            <p style="margin-bottom: 1rem; line-height: 1.6;">Shashank Yash is the visionary behind vi<span style="color: var(--golden-hint);">SY</span>bility. With a passion for digital innovation and a keen eye for design, he founded the agency to help businesses navigate the complexities of the digital landscape.</p>
+            <p style="margin-bottom: 0; line-height: 1.6;">Under his leadership, our team of dedicated professionals works tirelessly to deliver cutting-edge web and app solutions that drive real business growth. We believe in transparency, creativity, and building long-lasting partnerships with our clients.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <h2 style="margin-bottom: 1.5rem;">Our Team</h2>
+        <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 2rem;">
+          At vi<span style="color: var(--golden-hint);">SY</span>bility, our strength lies in our collective expertise. We are a diverse group of highly skilled developers, creative designers, and strategic marketers who share a common goal: to build digital solutions that convert. 
+        </p>
+        <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-muted);">
+          Every project is handled by specialists who understand the nuances of their craft, ensuring that from the first pixel to the final line of code, your brand is positioned for success. We don't just build websites; we build growth engines.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <a href="/contact.html" class="sticky-cta">
+    <i class="fas fa-calendar-alt"></i> Book a Call
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="/index.html" class="logo" style="display: block; margin-bottom: 1rem;">vi<span style="color: var(--golden-hint);">SY</span>bility<span style="color: var(--golden-hint);">.</span></a>
+          <p style="font-size: 0.95rem;">Be Seen. Be Known. Be <span style="color: var(--golden-hint);">viSYble</span>.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/919835189757"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/web-development.html">Web Development</a></li>
+            <li><a href="/app-development.html">App Development</a></li>
+            <li><a href="/digital-marketing.html">Digital Marketing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:contact@visybility.com">contact@visybility.com</a></li>
+            <li><a href="tel:+919835189757">+91-9835189757</a></li>
+            <li><span style="color: var(--text-muted); font-size: 0.95rem;">123 Innovation Drive<br>Tech City, TC 10010</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 vi<span style="color: var(--golden-hint);">SY</span>bility<span style="color: var(--golden-hint);">.</span> All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
